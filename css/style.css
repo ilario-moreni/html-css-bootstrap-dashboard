@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -17,15 +18,11 @@ body{
 
 
 
-
-
-
-
 /* header */
 
 header{
     background-color: white;
-    margin-top: 20px;
+    margin: 15px 0;
 }
 
 
@@ -45,6 +42,11 @@ nav{
 
 .my_mobile_logo{
     height: 100%;
+}
+
+.my_desktop_logo{
+    height: 30px;
+    margin: 10px 0px 10px 10px;
 }
 
 .input_nav{
@@ -114,13 +116,74 @@ nav{
 
 .nav_list_item{
     text-decoration: none;
-    margin-right: 20px;
     color: inherit;
+    margin-right: 20px;
 }
 
 .dropdown-toggle::after {
     content: none;
 }
+
+
+/* main */
+
+/* main structure */
+
+#main_row{
+    height: calc(100vh - 90px);
+    width: 100%;
+    display: flex;
+}
+
+aside{
+    color:white;
+    width: 78px;
+    height: 100%;
+    background-color: #051E34;
+    padding: 20px 20px 20px;
+}
+
+#main-col{
+    width: calc(100% - 78px);
+    height: 100%;
+}
+
+/* aside */
+
+.aside_container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside_ul{
+    padding:0;
+    list-style-type: none;
+    margin:0;
+}
+
+aside li{
+    padding: 10px 0 0 10px;
+}
+
+.aside_list_item{
+    text-decoration: none;
+    color: inherit;
+}
+
+.aside_list_item:hover{
+    color:white;
+}
+
+.aside_icon{
+    font: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
 
 
 /* queries */
@@ -130,16 +193,21 @@ nav{
 @media screen and (min-width: 992px) {
     /* header */
 
-    .input_nav{
-        width: calc(100% - 180px);
-    }
-
     .buttons_nav{
-        display: flex;
-        justify-content: flex-end;
         width: 150px;
-        margin: auto 0;
     }
 
+    /* main */
 
+    aside{
+        width: 140px;
+    }
+
+    #main-col{
+        width: calc(100% - 140px);
+    }
+
+    aside li:hover{
+        background-color: rgba(220, 220, 220, 0.7);
+    }
 }
