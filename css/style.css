@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F8F9FA;
+}
+
+/* commons */
+
+/* classes */
+
+/* elements */
+
+
+
+
+
+
+
+
+/* header */
+
+header{
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+
+nav{
+    display: flex;
+}
+
+
+
+
+.logo_nav{
+   height:50px;
+   margin: 5px 30px 5px 0;
+   cursor: pointer;
+}
+
+.my_mobile_logo{
+    height: 100%;
+}
+
+.input_nav{
+    width: calc(100% - 90px);
+}
+
+
+/* text area */
+
+.fg--search {
+    height: 50px;
+    margin: 5px 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .fg--search input {
+    height: 100%;
+    width: 100%;
+    padding: 5px 50px;
+    display: block;
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .fg--search button {
+    text-align: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 15px;
+    z-index: 2;
+  }
+
+
+  
+/* button nav container */
+
+.buttons_nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 60px;
+    margin: auto 0;
+}
+
+.nav_bell_icon{
+    color: #FF8F00;
+    font-size: 20px;
+}
+
+.nav_ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto 0;
+}
+
+.my_bell_btn{
+    background-color: transparent;
+    border: none;
+}
+
+.nav_list_item{
+    text-decoration: none;
+    margin-right: 20px;
+    color: inherit;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+
+/* queries */
+
+/* desktop */
+
+@media screen and (min-width: 992px) {
+    /* header */
+
+    .input_nav{
+        width: calc(100% - 180px);
+    }
+
+    .buttons_nav{
+        display: flex;
+        justify-content: flex-end;
+        width: 150px;
+        margin: auto 0;
+    }
+
+
+}
