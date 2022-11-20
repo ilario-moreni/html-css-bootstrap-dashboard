@@ -13,6 +13,10 @@ body{
 
 /* classes */
 
+.position_relative{
+    position: relative;
+}
+
 .font_14{
     font-size: 14px;
 }
@@ -268,11 +272,12 @@ aside li{
 }
 
 .my_submit_btn{
+    margin-left: 10px;
+    margin-right: 5px;
     color:white;
     background-color: #0B5ED7;
     border:none;
     border-radius: 5px;
-    margin: 10px 20px 10px 10px;
     height:40px;
     width: 80px;
 }
@@ -282,9 +287,15 @@ aside li{
     background-color: #FFC107;
     border:none;
     border-radius: 5px;
-    margin: 10px 20px 10px 10px;
     height:40px;
     width: 80px;
+}
+
+.angle_down_select{
+    position: absolute;
+    right: 30px;
+    top: 55%;
+    color: black;
 }
 
 /* queries */
