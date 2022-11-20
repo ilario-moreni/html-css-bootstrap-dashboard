@@ -303,6 +303,22 @@ aside li{
 
 /* first card */
 
+.table_col_name{
+    width: 40%;
+}
+
+.table_col_date{
+    width: 20%; 
+}
+
+.table_col_roi, .table_col_state{
+   width: 12.5%; 
+}
+
+.table_col_actions{
+    width: 15%;
+}
+
 /* second card */
 
 /* third card */
@@ -344,5 +360,23 @@ aside li{
 
     .font_14{
         font-size: 16px;
+    }
+
+    /* cards */
+
+    .table_col_name{
+        width: 40%;
+    }
+    
+    .table_col_date{
+        width: 20%; 
+    }
+    
+    .table_col_roi, .table_col_state{
+       width: 12.5%; 
+    }
+    
+    .table_col_actions{
+        width: 15%;
     }
 }
