@@ -19,6 +19,9 @@ body{
 
 /* elements */
 
+label{
+    color: black;
+}
 
 
 
@@ -217,7 +220,8 @@ aside li{
 }
 
 .boolean_app_header h2{
-    margin-right: 10px;
+    margin-right: 5px;
+    font-weight: 400;
 }
 
 .boolean_app_container{
@@ -232,6 +236,7 @@ aside li{
 }
 
 .boolean_app_ul{
+    width: calc(100% - 100px);
     flex-wrap: wrap;
     gap: 10px 0;
     margin: 0;
@@ -255,6 +260,31 @@ aside li{
     border-radius: 100px;
     padding: 5px 15px;
     cursor: pointer; 
+}
+
+.offcanvas_width{
+    width: 800px !important;
+    max-width: calc(100% - 78px);
+}
+
+.my_submit_btn{
+    color:white;
+    background-color: #0B5ED7;
+    border:none;
+    border-radius: 5px;
+    margin: 10px 20px 10px 10px;
+    height:40px;
+    width: 80px;
+}
+
+
+.my_reset_btn{
+    background-color: #FFC107;
+    border:none;
+    border-radius: 5px;
+    margin: 10px 20px 10px 10px;
+    height:40px;
+    width: 80px;
 }
 
 /* queries */
