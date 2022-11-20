@@ -13,6 +13,10 @@ body{
 
 /* classes */
 
+.font_14{
+    font-size: 14px;
+}
+
 /* elements */
 
 
@@ -143,7 +147,7 @@ aside{
     padding: 20px 20px 20px;
 }
 
-#main-col{
+#main_col{
     width: calc(100% - 78px);
     height: 100%;
 }
@@ -182,9 +186,76 @@ aside li{
     height: 30px;
 }
 
+/* top-bar section */
 
+.top_bar{
+    background-color: #1B72E8;
+    width: 100%;
+    color: white;
+    padding: 20px 30px 20px 20px;
+}
 
+.number_of_students{
+    font-size: 24px;
+    margin:0;
+}
 
+.my_offcanvas_btn{
+    background-color: #1B72E8;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+.new_student_container{
+    display: flex;
+    align-items: center;
+}
+
+.boolean_app_header{
+    display: flex;
+    align-items: center;
+}
+
+.boolean_app_header h2{
+    margin-right: 10px;
+}
+
+.boolean_app_container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.boolean_app_angles{
+    margin: 0 5px;
+}
+
+.boolean_app_ul{
+    flex-wrap: wrap;
+    gap: 10px 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.boolean_app_ul li{
+    margin-right: 10px;
+}
+
+.top_bar_btn{
+    background-color: #165BBA;
+    border-radius: 100px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.top_bar_plus_btn{
+    background-color: #165BBA;
+    border-radius: 100px;
+    padding: 5px 15px;
+    cursor: pointer; 
+}
 
 /* queries */
 
@@ -209,5 +280,13 @@ aside li{
 
     aside li:hover{
         background-color: rgba(220, 220, 220, 0.7);
+    }
+
+    .new_student_container{
+        justify-content: flex-end;
+    }
+
+    .font_14{
+        font-size: 16px;
     }
 }
