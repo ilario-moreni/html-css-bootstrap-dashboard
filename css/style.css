@@ -17,8 +17,9 @@ body{
     position: relative;
 }
 
-.font_14{
+.my_card, .font_14{
     font-size: 14px;
+    width: 100% !important;
 }
 
 /* elements */
@@ -296,6 +297,20 @@ aside li{
     right: 30px;
     top: 55%;
     color: black;
+}
+
+/* cards section */
+
+/* first card */
+
+/* second card */
+
+/* third card */
+
+/* fourth card */
+
+.my_card_4{
+    
 }
 
 /* queries */
