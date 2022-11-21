@@ -191,13 +191,13 @@
                 </div>
             </section>
             <section class="cards_container container-fluid">
-                <div class="row">
+                <div class="row gy-4">
                     <!-- col -->
                     <div class="col-12 col-lg-8">
                         <div class="row">
                             <!-- card -->
-                            <div class="col-12">
-                                <div class="card my_card_1 my_card" style="width: 18rem;">
+                            <div class="col-12 mb-4">
+                                <div class="card my_card_1 my_card">
                                     <div class="card-header">
                                       <h2>Prossime classi</h2>
                                     </div>
@@ -205,32 +205,68 @@
                                         <thead>
                                           <tr>
                                             <th class="table_col_name" scope="col">Nome</th>
-                                            <th class="table_col_date" scope="col">Data inizio</th>
-                                            <th class="table_col_roi" scope="col">ROI</th>
+                                            <th class="table_col_date d-none d-md-table-cell" scope="col">Data inizio</th>
+                                            <th class="table_col_roi d-none d-md-table-cell" scope="col">ROI</th>
                                             <th class="table_col_state" scope="col">Stato</th>
                                             <th class="table_col_actions" scope="col">Azioni</th>
                                           </tr>
                                         </thead>
                                         <tbody>
                                           <tr>
-                                            <td class="table_col_name" >Classe 75</td>
-                                            <td class="table_col_date" >15 Feb 2021</td>
-                                            <td class="table_col_roi" >20%</td>
-                                            <td class="table_col_state" >Done</td>
-                                            <td class="table_col_actions" >simbols</td>
+                                            <td class="table_col_name" ><i class="fa-solid fa-code class_icon"></i><span> Classe 75</span></td>
+                                            <td class="table_col_date d-none d-md-table-cell" >15 Feb 2021</td>
+                                            <td class="table_col_roi d-none d-md-table-cell" >20%</td>
+                                            <td class="table_col_state" ><span class="class_state class_state_done">Done</span></td>
+                                            <td class="table_col_actions" ><i class="fa-solid fa-pencil my_action_icon"></i><i class="fa-solid fa-trash my_action_icon"></i></td>
                                           </tr>
                                           <tr>
-                                            <td>2</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>Thornton</td>
-                                            <td>simbols</td>
+                                            <td class="table_col_name" ><i class="fa-solid fa-code class_icon"></i><span> Classe 76</span></td>
+                                            <td class="table_col_date d-none d-md-table-cell" >16 Feb 2021</td>
+                                            <td class="table_col_roi d-none d-md-table-cell" >20%</td>
+                                            <td class="table_col_state" ><span class="class_state class_state_done">Done</span></td>
+                                            <td class="table_col_actions" ><i class="fa-solid fa-pencil my_action_icon"></i><i class="fa-solid fa-trash my_action_icon"></i></td>
                                           </tr>
                                           <tr>
-                                            <td>3</td>
-                                            <td colspan="2">Larry the Bird</td>
-                                            <td colspan="2">Larry the Bird</td>
-                                            
+                                            <td class="table_col_name" ><i class="fa-solid fa-code class_icon"></i><span> Classe 77</span></td>
+                                            <td class="table_col_date d-none d-md-table-cell" >17 Feb 2021</td>
+                                            <td class="table_col_roi d-none d-md-table-cell" >20%</td>
+                                            <td class="table_col_state" ><span class="class_state class_state_process">Process</span></td>
+                                            <td class="table_col_actions" ><i class="fa-solid fa-pencil my_action_icon"></i><i class="fa-solid fa-trash my_action_icon"></i></td>
+                                          </tr>
+                                          <tr>
+                                            <td class="table_col_name" ><i class="fa-solid fa-code class_icon"></i><span> Classe 78</span></td>
+                                            <td class="table_col_date d-none d-md-table-cell" >18 Feb 2021</td>
+                                            <td class="table_col_roi d-none d-md-table-cell" >20%</td>
+                                            <td class="table_col_state" ><span class="class_state class_state_done">Done</span></td>
+                                            <td class="table_col_actions" ><i class="fa-solid fa-pencil my_action_icon"></i><i class="fa-solid fa-trash my_action_icon"></i></td>
+                                          </tr>
+                                          <tr>
+                                            <td class="table_col_name" ><i class="fa-solid fa-code class_icon"></i><span> Classe 79</span></td>
+                                            <td class="table_col_date d-none d-md-table-cell" >19 Feb 2021</td>
+                                            <td class="table_col_roi d-none d-md-table-cell" >20%</td>
+                                            <td class="table_col_state" ><span class="class_state class_state_failed">Failed</span></td>
+                                            <td class="table_col_actions" ><i class="fa-solid fa-pencil my_action_icon"></i><i class="fa-solid fa-trash my_action_icon"></i></td>
+                                          </tr>
+                                          <tr>
+                                            <td class="table_col_name" ><i class="fa-solid fa-code class_icon"></i><span> Classe 80</span></td>
+                                            <td class="table_col_date d-none d-md-table-cell" >20 Feb 2021</td>
+                                            <td class="table_col_roi d-none d-md-table-cell" >20%</td>
+                                            <td class="table_col_state" ><span class="class_state class_state_done">Done</span></td>
+                                            <td class="table_col_actions" ><i class="fa-solid fa-pencil my_action_icon"></i><i class="fa-solid fa-trash my_action_icon"></i></td>
+                                          </tr>
+                                          <tr>
+                                            <td class="table_col_name" ><i class="fa-solid fa-code class_icon"></i><span> Classe 81</span></td>
+                                            <td class="table_col_date d-none d-md-table-cell" >21 Feb 2021</td>
+                                            <td class="table_col_roi d-none d-md-table-cell" >20%</td>
+                                            <td class="table_col_state" ><span class="class_state class_state_failed">Failed</span></td>
+                                            <td class="table_col_actions" ><i class="fa-solid fa-pencil my_action_icon"></i><i class="fa-solid fa-trash my_action_icon"></i></td>
+                                          </tr>
+                                          <tr>
+                                            <td class="table_col_name" ><i class="fa-solid fa-code class_icon"></i><span> Classe 82</span></td>
+                                            <td class="table_col_date d-none d-md-table-cell" >22 Feb 2021</td>
+                                            <td class="table_col_roi d-none d-md-table-cell" >20%</td>
+                                            <td class="table_col_state" ><span class="class_state class_state_done">Done</span></td>
+                                            <td class="table_col_actions" ><i class="fa-solid fa-pencil my_action_icon"></i><i class="fa-solid fa-trash my_action_icon"></i></td>
                                           </tr>
                                         </tbody>
                                       </table>
@@ -240,7 +276,7 @@
                         <div class="row">
                             <!-- card -->
                             <div class="col-12">
-                                <div class="card my_card_2 my_card" style="width: 18rem;">
+                                <div class="card my_card_2 my_card">
                                     <div class="card-header">
                                       <h2>F.A.Q.</h2>
                                     </div>
@@ -290,8 +326,8 @@
                     <div class="col-12 col-lg-4">
                         <div class="row">
                             <!-- card -->
-                            <div class="col-12">
-                                <div class="card my_card_3 my_card" style="width: 18rem;">
+                            <div class="col-12  mb-4">
+                                <div class="card my_card_3 my_card">
                                     <div class="card-header">
                                       <h2>Todo</h2>
                                     </div>
@@ -309,7 +345,7 @@
                         <div class="row">
                             <!-- card -->
                             <div class="col-12">
-                                <div class="card my_card_4 my_card" style="width: 18rem;">
+                                <div class="card my_card_4 my_card">
                                     <img src="./img/stats.jpeg" class="card-img-top" alt="grafico dell'affluenza del sito">
                                     <div class="card-body">
                                       <h5 class="card-title">Utenti attivi</h5>
