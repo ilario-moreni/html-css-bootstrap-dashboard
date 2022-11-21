@@ -9,7 +9,7 @@ body{
     background-color: #F8F9FA;
 }
 
-/* commons */
+                                                /* commons */
 
 /* classes */
 
@@ -29,7 +29,7 @@ label{
 
 
 
-/* header */
+                                                /* header */
 
 header{
     background-color: white;
@@ -136,7 +136,7 @@ nav{
 }
 
 
-/* main */
+                                                /* main */
 
 /* main structure */
 
@@ -160,7 +160,7 @@ aside{
     overflow-y: scroll;
 }
 
-/* aside */
+                                                /* aside */
 
 .aside_container{
     height: 100%;
@@ -194,7 +194,7 @@ aside li{
     height: 30px;
 }
 
-/* top-bar section */
+                                                /* top-bar section */
 
 .top_bar{
     background-color: #1B72E8;
@@ -299,7 +299,7 @@ aside li{
     color: black;
 }
 
-/* cards section */
+                                                /* cards section */
 
 .cards_container{
     margin: 1.5rem 0;
@@ -398,7 +398,7 @@ aside li{
 
 
 
-/* hover */
+        /* hover */
 
 .top_bar_btn:hover{
     filter: brightness(1.1);
@@ -416,7 +416,7 @@ tr:not(.not):hover{
     color: black;
 }
 
-/* queries */
+                                                /* queries */
 
 /* desktop */
 
