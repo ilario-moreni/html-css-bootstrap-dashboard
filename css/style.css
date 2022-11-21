@@ -127,7 +127,7 @@ nav{
 
 .nav_list_item{
     text-decoration: none;
-    color: inherit;
+    color: #5B5858;
     margin-right: 20px;
 }
 
@@ -393,6 +393,27 @@ aside li{
 
 .my_card_4{
     
+}
+
+
+
+
+/* hover */
+
+.top_bar_btn:hover{
+    filter: brightness(1.1);
+}
+
+.my_action_icon:hover{
+    color: rgb(230, 169, 27);
+}
+
+tr:not(.not):hover{
+    background-color: #ECECEC;
+}
+
+.nav_list_item:hover{
+    color: black;
 }
 
 /* queries */
